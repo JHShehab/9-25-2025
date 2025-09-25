@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Nav Start -->
+    <section>
+        <div class="navbar bg-base-100 shadow-sm top-0 left-0 z-1"
+            style="background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(193, 245, 165));">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="service.html">Service</a></li>
+                        <li><a href="tips.html">Blog/tips</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <a class=""><img class="w-18 h-15" src="plant logo.jfif" alt="Plant" title="Plant"></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-2xl font-bold">
+                    <li class="hover:background-image: linear-gradient"><a href="index.html">Home</a></li>
+                    <li class="hover:bg-neutral-400"><a href="about.html">About</a></li>
+                    <li class="hover:bg-neutral-400"><a href="product.html">Product</a></li>
+                    <li class="hover:bg-neutral-400"><a href="service.html">Service</a></li>
+                    <li class="hover:bg-neutral-400"><a href="tips.html">Blog/tips</a></li>
+                    <li class="hover:bg-neutral-400"><a href="Contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="navbar-end gap-4 text-2xl">
+                <a class="">
+                    <p><i class="fa-brands fa-facebook"></i></p>
+                </a>
+                <a class="">
+                    <p><i class="fa-brands fa-whatsapp"></i></p>
+                </a>
+                <a class="">
+                    <p><i class="fa-brands fa-instagram"></i></p>
+                </a>
+                <a class="">
+                    <p><i class="fa-brands fa-linkedin-in"></i></p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Nav End -->
+    <!-- Hero Start -->
+
+    <div class="hero min-h-screen" style="background-image: url(plant.jfif);">
+        <div class="hero-overlay"></div>
+        <div class="hero-content text-neutral-content text-center">
+            <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                <p class="mb-5">
+                    Green Haven is your cozy neighborhood plant shop, offering a vibrant selection of indoor and outdoor
+                    plants, from trendy succulents to lush tropical greens. Whether you’re a seasoned gardener or just
+                    starting out, our friendly staff is here to help you find the perfect greenery to brighten your
+                    space and boost your mood. Step in and let nature flourish in your home!
+                </p>
+                <button class="btn btn-accent">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <!-- hero End -->
+    <!-- caroysel start -->
+    <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full ">
+            <img src="Plant 1.jpg" class="w-full" />
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide5" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+            <img src="Plant 2.jpg" class="w-full" />
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+            <img src="Plant 3.jpg" class="w-full" />
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+            <img src="Plant 4.jpg" class="w-full" />
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide5" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide5" class="carousel-item relative w-full">
+            <img src="Plant5.jpg" class="w-full" />
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+    </div>
+    <!-- carousel end -->
+    <!-- Card section start -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 ">
+
+        <div class="card bg-base-400 w-full shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="decorative.jpg" alt="peonies" title="peonies" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Indoor plants</h2>
+                <p>Thriving in low light, indoor plants like snake plants and peace lilies purify the air and add
+                    greenery to your home or office.</p>
+                <div class="card-actions">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-base-400 w-full shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="flower.jpg" alt="Nerve plant" title="Nerve plant" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Outdoor plants</h2>
+                <p>Best suited for gardens and patios, outdoor plants like roses and sunflowers thrive in sunlight and
+                    create vibrant, natural landscapes.</p>
+                <div class="card-actions">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-base-400 w-full shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="Aloe vera.jpg" alt="Alovera" title="Alovera" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Medical plants</h2>
+                <p>Used for natural healing, medicinal plants like aloe vera and peppermint offer benefits like
+                    soothing, anti-inflammatory, and relaxing properties.</p>
+                <div class="card-actions">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Card section end -->
+    <!-- Customer Reviews Section -->
+    <section class="py-20 bg-white">
+        <h2 class="text-3xl font-semibold text-center mb-10">Customer Reviews</h2>
+        <div class="overflow-x-auto">
+            <div class="flex space-x-10">
+                <div class="card w-96 bg-gray-200 shadow-xl">
+                    <div class="card-body">
+                        <p class="text-lg">"The indoor plants I ordered are thriving! Beautiful and easy to take care
+                            of."</p>
+                        <div class="flex items-center mt-4">
+                            <img src="person2.jpg" class="rounded-full mr-4 h-20 w-20" alt="Customer">
+                            <div>
+                                <h3 class="font-semibold">John Doe</h3>
+                                <p class="text-sm">Verified Buyer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-96 bg-gray-200 shadow-xl">
+                    <div class="card-body">
+                        <p class="text-lg">"Great selection of flowering plants. My garden has never looked better!"</p>
+                        <div class="flex items-center mt-4">
+                            <img src="person1.jpg" class="rounded-full mr-4 h-20 w-20" alt="Customer">
+                            <div>
+                                <h3 class="font-semibold">Jane Smith</h3>
+                                <p class="text-sm">Verified Buyer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-96 bg-gray-200 shadow-xl">
+                    <div class="card-body">
+                        <p class="text-lg">"The medicinal plants I bought have made such a difference in my health
+                            routine!"</p>
+                        <div class="flex items-center mt-2">
+                            <img src="person3.jpg" class="rounded-full mr-4 h-20 w-20" alt="Customer">
+                            <div>
+                                <h3 class="font-semibold">Xioa Lee</h3>
+                                <p class="text-sm">Verified Buyer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Customer Reviews Section End-->
+    <!-- Footer Start -->
+    <footer class="footer sm:footer-horizontal footer-center p-4"
+        style="background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(193, 245, 165))">
+        <aside>
+            <p>Copyright © Shehab - All right reserved by JHS Industries Ltd</p>
+        </aside>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>
