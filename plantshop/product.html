@@ -13,7 +13,8 @@
 
 <body>
     <!-- Nav Start -->
-    <div class="navbar bg-base-100  top-0 left-0 z-1" style="background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(193, 245, 165));">
+    <div class="navbar bg-base-100  top-0 left-0 z-1 "
+        style="background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(193, 245, 165));">
         <div class="navbar-start">
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -35,7 +36,7 @@
             <a class=""><img class="w-18 h-15" src="plant logo.jfif" alt="Plant" title="Plant"></a>
         </div>
         <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1 text-2xl font-bold">
+            <ul class="menu menu-horizontal px-1 text-xl font-bold">
                 <li class="hover:bg-neutral-400"><a href="index.html">Home</a></li>
                 <li class="hover:bg-neutral-400"><a href="about.html">About</a></li>
                 <li class="hover:bg-neutral-400"><a href="product.html">Product</a></li>
@@ -62,10 +63,122 @@
     <!-- Nav End -->
 
 
+    <!-- Page Container -->
+    <div class="max-w-7xl mx-auto p-6">
+
+        <!-- Title -->
+        <h1 class="text-4xl font-bold mb-6">Our Plants</h1>
+
+        <!-- Category Filters -->
+        <div class="mb-8">
+            <div class="tabs tabs-boxed">
+                <a class="tab tab-active">All</a>
+                <a class="tab">Indoor</a>
+                <a class="tab">Outdoor</a>
+                <a class="tab">Bonsai</a>
+                <a class="tab">Succulents</a>
+                <a class="tab">Air Purifying</a>
+            </div>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+            <!-- Product Card -->
+            <div class="card bg-base-200 shadow-md">
+                <figure><img src="snake plant.jfif" alt="Plant" title="Snake Plant"
+                        class="h-48 w-full object-cover" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Snake Plant</h2>
+                    <p class="text-sm text-gray-500">A low-maintenance indoor plant that purifies air.</p>
+                    <div class="mt-2">
+                        <span class="font-bold text-lg">$18.99</span>
+                    </div>
+                    <!-- Care Level -->
+                    <div class="badge badge-success mt-2">Easy Care</div>
+                    <!-- Wishlist Button -->
+                    <div class="card-actions justify-end mt-4">
+                        <button class="btn btn-outline btn-sm">
+                            ❤️ Add to Wishlist
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Another Product Card -->
+            <div class="card bg-base-200 shadow-md">
+                <figure><img src="Mini Bonsai.jfif" alt="Bonsai" title="Mini Bonsai"
+                        class="h-48 w-full object-cover" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Mini Bonsai</h2>
+                    <p class="text-sm text-gray-500">A beautiful bonsai tree for decor and relaxation.</p>
+                    <div class="mt-2">
+                        <span class="font-bold text-lg">$34.50</span>
+                    </div>
+                    <!-- Care Level -->
+                    <div class="badge badge-warning mt-2">Medium Care</div>
+                    <!-- Wishlist Button -->
+                    <div class="card-actions justify-end mt-4">
+                        <button class="btn btn-outline btn-sm">
+                            ❤️ Add to Wishlist
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Product Card -->
+            <div class="card bg-base-200 shadow-md">
+                <figure><img src="Succulent Set.jfif" alt="Succulent" title="Succulent Set"
+                        class="h-48 w-full object-cover" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Succulent Set</h2>
+                    <p class="text-sm text-gray-500">A set of mini succulents for home or office.</p>
+                    <div class="mt-2">
+                        <span class="font-bold text-lg">$12.00</span>
+                    </div>
+                    <!-- Care Level -->
+                    <div class="badge badge-success mt-2">Easy Care</div>
+                    <!-- Wishlist Button -->
+                    <div class="card-actions justify-end mt-4">
+                        <button class="btn btn-outline btn-sm">
+                            ❤️ Add to Wishlist
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fourth Product Card -->
+            <div class="card bg-base-200 shadow-md">
+                <figure><img src="Outdoor Palm.jfif" alt="Outdoor Plant" title="Outdoor Palm"
+                        class="h-48 w-full object-cover" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Outdoor Palm</h2>
+                    <p class="text-sm text-gray-500">Perfect for patios and gardens with plenty of sun.</p>
+                    <div class="mt-2">
+                        <span class="font-bold text-lg">$45.00</span>
+                    </div>
+                    <!-- Care Level -->
+                    <div class="badge badge-error mt-2">Hard Care</div>
+                    <!-- Wishlist Button -->
+                    <div class="card-actions justify-end mt-4">
+                        <button class="btn btn-outline btn-sm">
+                            ❤️ Add to Wishlist
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
 
 
     <!-- Footer Start -->
-    <footer class="footer sm:footer-horizontal footer-center p-4" style="background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(193, 245, 165))">
+    <footer class="footer sm:footer-horizontal footer-center p-4"
+        style="background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(193, 245, 165))">
         <aside>
             <p>Copyright © Shehab - All right reserved by JHS Industries Ltd</p>
         </aside>

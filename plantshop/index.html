@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -38,7 +39,7 @@
                 <a class=""><img class="w-18 h-15" src="plant logo.jfif" alt="Plant" title="Plant"></a>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1 text-2xl font-bold">
+                <ul class="menu menu-horizontal px-1 text-xl font-bold">
                     <li class="hover:background-image: linear-gradient"><a href="index.html">Home</a></li>
                     <li class="hover:bg-neutral-400"><a href="about.html">About</a></li>
                     <li class="hover:bg-neutral-400"><a href="product.html">Product</a></li>
@@ -218,6 +219,23 @@
         </div>
     </section>
     <!-- Customer Reviews Section End-->
+
+     <!-- rating -->
+    <div class="text-center">
+        <div id="starRating" class="inline-flex space-x-1" role="radiogroup" aria-label="5 star rating">
+            <button class="star-btn star-off" aria-checked="false" role="radio" tabindex="0" data-value="1"
+                aria-label="1 star">★</button>
+            <button class="star-btn star-off" aria-checked="false" role="radio" tabindex="-1" data-value="2"
+                aria-label="2 stars">★</button>
+            <button class="star-btn star-off" aria-checked="false" role="radio" tabindex="-1" data-value="3"
+                aria-label="3 stars">★</button>
+            <button class="star-btn star-off" aria-checked="false" role="radio" tabindex="-1" data-value="4"
+                aria-label="4 stars">★</button>
+            <button class="star-btn star-off" aria-checked="false" role="radio" tabindex="-1" data-value="5"
+                aria-label="5 stars">★</button>
+        </div>
+        <p class="mt-4 text-lg font-semibold">Your rating: <span id="ratingValue">0</span>/5</p>
+    </div>
     <!-- Footer Start -->
     <footer class="footer sm:footer-horizontal footer-center p-4"
         style="background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(193, 245, 165))">
@@ -226,6 +244,10 @@
         </aside>
     </footer>
     <!-- footer end -->
+   
+
+
+    <script src="main.js"></script>
 </body>
 
 </html>

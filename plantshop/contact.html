@@ -38,7 +38,7 @@
                 <a class=""><img class="w-18 h-15" src="plant logo.jfif" alt="Plant" title="Plant"></a>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1 text-2xl font-bold">
+                <ul class="menu menu-horizontal px-1 text-xl font-bold">
                     <li class="hover:bg-neutral-400"><a href="index.html">Home</a></li>
                     <li class="hover:bg-neutral-400"><a href="about.html">About</a></li>
                     <li class="hover:bg-neutral-400"><a href="product.html">Product</a></li>
@@ -63,6 +63,94 @@
         </div>
     </section>
     <!-- Nav End -->
+
+    <div class="max-w-7xl mx-auto px-6 py-12">
+        <h1 class="text-4xl font-bold mb-10 text-center">📬 Contact Us</h1>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+            <!-- Contact Form -->
+            <div>
+                <form class="space-y-4">
+                    <div>
+                        <label class="label" for="name">
+                            <span class="label-text">Name</span>
+                        </label>
+                        <input type="text" id="name" placeholder="Your full name" class="input input-bordered w-full"
+                            required />
+                    </div>
+
+                    <div>
+                        <label class="label" for="email">
+                            <span class="label-text">Email</span>
+                        </label>
+                        <input type="email" id="email" placeholder="your@email.com" class="input input-bordered w-full"
+                            required />
+                    </div>
+
+                    <div>
+                        <label class="label" for="subject">
+                            <span class="label-text">Subject</span>
+                        </label>
+                        <input type="text" id="subject" placeholder="Subject of your message"
+                            class="input input-bordered w-full" required />
+                    </div>
+
+                    <div>
+                        <label class="label" for="message">
+                            <span class="label-text">Message</span>
+                        </label>
+                        <textarea id="message" rows="5" class="textarea textarea-bordered w-full"
+                            placeholder="Type your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Info & Map -->
+            <div class="space-y-6">
+
+                <!-- Contact Info -->
+                <div class="bg-base-200 p-6 rounded-box shadow">
+                    <h2 class="text-2xl font-semibold mb-2">📞 Contact Information</h2>
+                    <p><strong>Phone:</strong> <a href="tel:+1234567890" class="link">+1 (234) 567-890</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:hello@plantstore.com"
+                            class="link">hello@plantstore.com</a></p>
+                    <p><strong>Address:</strong> 123 Green St, Ivanhoe VIC 3079, Australia</p>
+                </div>
+
+                <!-- Business Hours -->
+                <div class="bg-base-200 p-6 rounded-box shadow">
+                    <h2 class="text-2xl font-semibold mb-2">🕒 Business Hours</h2>
+                    <ul class="text-sm">
+                        <li>Mon - Fri: 9:00 AM – 6:00 PM</li>
+                        <li>Saturday: 10:00 AM – 4:00 PM</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div class="bg-base-200 p-6 rounded-box shadow">
+                    <h2 class="text-2xl font-semibold mb-2">📱 Connect with Us</h2>
+                    <div class="flex gap-4 mt-2">
+                        <a href="#" class="btn btn-circle btn-outline text-xl">🌐</a>
+                        <a href="#" class="btn btn-circle btn-outline text-xl">📘</a>
+                        <a href="#" class="btn btn-circle btn-outline text-xl">📸</a>
+                        <a href="#" class="btn btn-circle btn-outline text-xl">🐦</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Embedded Google Map -->
+        <div class="mt-16">
+            <h2 class="text-2xl font-bold mb-4">📍 Find Us Here</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.095521462114!2d145.02588467663512!3d-37.76435836929063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6441466956385%3A0x5a9588ace4e21bfe!2s123%20Green%20St%2C%20Ivanhoe%20VIC%203079%2C%20Australia!5e0!3m2!1sen!2sbd!4v1758971242216!5m2!1sen!2sbd" 
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-box shadow-lg"></iframe>
+        </div>
+
+    </div>
 
 
 
